@@ -1,3 +1,10 @@
+:root{
+  --var-dark-blue:rgb(2,12,68);
+  --var-light-shaded-blue:rgb(32,37,75);
+  --var-orange-clr: rgb(205,164,92);
+  --var-green: rgb(58,186,113);
+}
+
 *{
   margin: 0;
   padding: 0;
