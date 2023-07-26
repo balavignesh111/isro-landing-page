@@ -187,6 +187,46 @@ body{
   object-fit: contain;
 }
 
+.slider-img{
+  background-color: white;
+  width: 3rem;
+  position: absolute;
+  right: 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.2rem;
+  cursor: pointer;
+}
+
+.sliderOne{
+  top: 35%;
+}
+
+.sliderTwo{
+  top: 45%;
+}
+
+.sliderThree{
+  top: 55%;
+}
+
+.sliderFour{
+  top: 65%;
+}
+
+.slider-img p{
+  font-size: 0.9rem;
+  display: none;
+}
+
+.slider-img:hover{
+  width: 10rem;
+}
+
+.slider-img:hover p{
+  display: block;
+}
 .right-fixed-imaged{
   position: absolute;
   right: 0;
@@ -194,5 +234,34 @@ body{
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.upArrowBtn{
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid var(--var-orange-clr);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upArrowBtn{
+  position: fixed;
+  right: 2.5rem;
+  bottom: 2.5rem;
+}
+
+.upArrowBtn i{
+  font-size: 1.2rem;
+  color: rgb(205, 164, 92);
+}
+
+.upArrowBtn:hover{
+  background-color: var(--var-orange-clr);
+}
+
+.upArrowBtn:hover i{
+  color: rgb(59, 59, 59);
 }
 
